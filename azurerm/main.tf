@@ -28,7 +28,7 @@ provider "azurerm" {
       costcenter  = "it"
     }
 
-    enable_accelerated_networking = "true"
+    #enable_accelerated_networking = "true"
   }
 
   module "network" {
